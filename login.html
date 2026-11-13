@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Log In </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700&family=Rozha+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="auth-page">
+    <section class="auth-side">
+      <a class="logo" href="login.html">NoteMe<span>.</span></a>
+      <h1> Notes that look as good as they work. </h1>
+      <p> Log in or sign up to browse student digital notes and templates. </p>
+    </section>
+
+    <div class="auth-forms">
+      <section class="auth-card">
+        <h2> Log In </h2>
+        <p class="sub"> Customer and admin access. Enter your username and password to continue. </p>
+        <form>
+          <label for="login-username"> Username </label>
+          <input type="text" id="login-username" required>
+          <label for="login-password"> Password </label>
+          <input type="password" id="login-password" required>
+
+          <div class="radio-row">
+            <label><input type="radio" name="login-as" checked> Customer </label>
+            <label><input type="radio" name="login-as"> Admin </label>
+          </div>
+
+          <a class="btn block" href="homepage.html"> Log In </a>
+        </form>
+        <p class="switch"> No account yet? <a href="signup.html"> Sign Up </a></p>
+      </section>
+
+    </div>
+  </main>
+</body>
+</html>
